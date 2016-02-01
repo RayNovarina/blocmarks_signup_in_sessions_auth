@@ -14,9 +14,10 @@ class User < ActiveRecord::Base
   # have entered a password.
   validates :password, presence: true, length: { minimum: 6 }, if: 'password_digest.nil?'
   # Note: The following validation ensures that when updating a user's password,
-  # the updated password is also six characters long. allow_blank: true skips
-  # the validation if no updated password is given. This allows us to change
-  # other attributes on a user without being forced to set the password.
+  # the updated password is also six characters long.
+  # allow_blank: true skips the validation if no updated password is given. This
+  # allows us to change other attributes on a user without being forced to set
+  # the password.
   validates :password, length: { minimum: 6 }, allow_blank: true
   validates :email,
             presence: true,
