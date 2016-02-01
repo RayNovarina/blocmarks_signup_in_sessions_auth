@@ -7,4 +7,7 @@ class WelcomeController < ApplicationController
   # in the following order: index, show, new, edit, create, update and destroy.
   def index
   end
+
+  def about
+  end
 end
