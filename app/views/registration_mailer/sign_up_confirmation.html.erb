@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+</head>
+<body>
+<h1>Dear <%= @user.name %>,</h1>
+<p>Thank you for signing up with Blocmarks.</p>
+<p>
+  <%= link_to "Confirm your account and start using Blocmarks", welcome_index_url(only_path: true) %>
+</p>
+</body>
+</html>
