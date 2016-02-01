@@ -38,4 +38,12 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # For heroku install of SendGrid email lib
+  config.action_mailer.default_url_options = { host: 'localhost' }
+  # Troubleshooting ActionMailer failures:
+  #   Adding config.raise_delivery_errors = true to your config/environments/development.rb file will tell
+  #   ActionMailer to raise informative errors if it fails. This can be very helpful for debugging.
+  config.action_mailer.raise_delivery_errors = true
+
 end

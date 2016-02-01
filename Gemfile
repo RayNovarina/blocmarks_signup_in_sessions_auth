@@ -20,6 +20,7 @@ gem 'bootstrap-sass'
 # Use Figaro to store Sendgrid and Devise credentials as environment variables.
 #     Doc - Bloc: https://www.bloc.io/resources/environment-variables-with-figaro
 #     GitHub - https://github.com/laserlemon/figaro#give-me-an-example
+#
 gem 'figaro', '1.0'
 
 #============== DEVELOPMENT only GEMS =================
