@@ -1,6 +1,6 @@
 Blocmarks
 
-Intro
+1) Intro
 
 Build an application that allows a user to bookmark URLs via email, peruse other user's bookmarks and maintain a personal index of categorized bookmarks.
 Use Case
@@ -11,17 +11,14 @@ Blocmarks will solve these problems by organizing bookmarks by topic and making 
 
 User Stories
 
-As a user, I want to sign up for a free account by providing a user name, password and email 	2
-As a user, I want to sign in and out of Blocmarks 	2
-As a user, I want to email a URL to Blocmarks and have it saved in the Blocmarks database 	3
-As a user, I want to see an index of all topics and their bookmarks 	3
-As a user, I want to create, read, update, and delete bookmarks 	2
-As a user, I want to be the only one allowed to delete and update my bookmarks 	3
-As a user, I want to "like and unlike" bookmarks created by other users 	2
-As a user, I want to see a list of bookmarks on my personal profile that I've added or liked 	3
-
-Before you begin working on user stories, complete this project's Getting Started guide. Later user stories often rely on the completion of the former, therefore, work on them in the order prescribed.
-Wireframes
+2) As a user, I want to sign up for a free account by providing a user name, password and email 	2
+3) As a user, I want to sign in and out of Blocmarks 	2
+4) As a user, I want to email a URL to Blocmarks and have it saved in the Blocmarks database 	3
+5) As a user, I want to see an index of all topics and their bookmarks 	3
+6) As a user, I want to create, read, update, and delete bookmarks 	2
+7) As a user, I want to be the only one allowed to delete and update my bookmarks 	3
+8) As a user, I want to "like and unlike" bookmarks created by other users 	2
+9) As a user, I want to see a list of bookmarks on my personal profile that I've added or liked 	3
 
 These wireframes are meant to suggest a design, not dictate one.
 Wireframe 	Description
